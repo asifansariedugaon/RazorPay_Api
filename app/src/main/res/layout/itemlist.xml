@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="110dp">
+
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="20dp">
+
+
+            <TextView
+                android:id="@+id/userId_textView"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="Id" />
+
+
+            <TextView
+                android:id="@+id/userName_textView"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/userId_textView"
+                android:text="Name" />
+
+            <TextView
+                android:id="@+id/userEmail_textView"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/userName_textView"
+                android:text="Email" />
+
+
+            <TextView
+                android:id="@+id/userContact_textView"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/userEmail_textView"
+                android:text="contact" />
+
+<!--            <TextView-->
+<!--                android:id="@+id/usergstin_textView"-->
+<!--                android:layout_width="250dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@id/userContact_textView"-->
+<!--                android:text="gstin" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/userNotes_textView"-->
+<!--                android:layout_width="250dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@id/usergstin_textView"-->
+<!--                android:text="Notes" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/userEntity_textView"-->
+<!--                android:layout_width="250dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@id/userNotes_textView"-->
+<!--                android:text="entity" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/userCreated_at_textView"-->
+<!--                android:layout_width="250dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@id/userEntity_textView"-->
+<!--                android:text="Created At" />-->
+
+            <ImageView
+                android:id="@+id/updateImg_imageView"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="270dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/update_icon" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

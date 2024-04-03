@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RazorPay</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_contact">Enter Contact</string>
+    <string name="POST_DATA">ADD DATA</string>
+    <string name="update_name">Update Name</string>
+    <string name="update_contact">Update Contact</string>
+    <string name="update_email">Update Email</string>
+    <string name="post_data">POST DATA</string>
+</resources>
